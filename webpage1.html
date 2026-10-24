@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sweet Treats Bakery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: floralwhite;
+        }
+
+        header {
+            background-color: saddlebrown;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: chocolate;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .banner {
+            background-color: moccasin;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .banner h2 {
+            color: saddlebrown;
+            font-size: 30px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        .banner button {
+            background-color: chocolate;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: saddlebrown;
+            margin-top: 30px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .item {
+            background-color: white;
+            width: 220px;
+            padding: 18px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 2px 2px 10px lightgray;
+        }
+
+        .item:hover {
+            background-color: oldlace;
+            transform: translateY(-5px);
+        }
+
+        .cake {
+            background-color: pink;
+            font-size: 45px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .price {
+            color: darkgreen;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .item button {
+            background-color: saddlebrown;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        .offer {
+            background-color: lightpink;
+            text-align: center;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 12px;
+        }
+
+        .contact {
+            background-color: moccasin;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer {
+            background-color: saddlebrown;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍰 Sweet Treats Bakery</h1>
+    <p>Freshly Baked with Love ❤️</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Our Menu</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="banner" id="home">
+    <h2>Happiness Is Homemade!</h2>
+    <p>Delicious cakes, tasty cookies and fresh pastries.</p>
+    <p>Make every celebration extra sweet!</p>
+    <button onclick="location.href='#menu'">Explore Menu</button>
+</div>
+
+<h2 class="section-title" id="menu">✨ Our Special Menu ✨</h2>
+
+<div class="products">
+
+    <div class="item">
+        <div class="cake">🎂</div>
+        <h3>Chocolate Cake</h3>
+        <p>Rich, soft and chocolatey.</p>
+        <p class="price">₹450</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="item">
+        <div class="cake">🧁</div>
+        <h3>Vanilla Cupcakes</h3>
+        <p>Sweet little bites of happiness.</p>
+        <p class="price">₹120</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="item">
+        <div class="cake">🍪</div>
+        <h3>Choco Cookies</h3>
+        <p>Crispy cookies with chocolate chips.</p>
+        <p class="price">₹100</p>
+        <button>Order Now</button>
+    </div>
+
+    <div class="item">
+        <div class="cake">🥐</div>
+        <h3>Fresh Pastries</h3>
+        <p>Soft, tasty and freshly baked.</p>
+        <p class="price">₹80</p>
+        <button>Order Now</button>
+    </div>
+
+</div>
+
+<div class="offer" id="offers">
+    <h2>🎉 Special Offer!</h2>
+    <p>Make your day sweeter with our delicious treats.</p>
+    <p><b>Buy 2 Cupcakes and Get 1 Cookie Free!</b></p>
+</div>
+
+<div class="contact" id="contact">
+    <h2>📍 Visit Our Bakery</h2>
+    <p>Address: Main Road, Agiripalli</p>
+    <p>Phone: 98765 43210</p>
+    <p>Opening Hours: 9:00 AM – 9:00 PM</p>
+</div>
+
+<footer>
+    <p>Sweet Treats Bakery | Baked with Love ❤️</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
